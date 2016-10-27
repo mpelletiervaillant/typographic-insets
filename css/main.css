@@ -97,6 +97,7 @@ main > p:first-child::first-letter {
   border: 3px solid #000;
   float: left;
   width: inherit;
+  overflow: hidden;
   margin-right: 5px;
   margin-left: -35px;
 }
@@ -124,4 +125,5 @@ blockquote {
   border-bottom: 3px solid black;
   margin-left: -150px;
   text-align: right;
+  color: #f2f2f2;
 }
