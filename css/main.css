@@ -98,8 +98,8 @@ main > p:first-child::first-letter {
   float: left;
   width: inherit;
   margin-right: 5px;
+  margin-left: -35px;
 }
-
 
 figcaption {
   font-style: italic;
@@ -113,7 +113,8 @@ figure {
   border-bottom: 3px solid black;
   overflow: hidden;
   padding: 6px 0;
-
+  margin-right: -150px;
+}
 
 blockquote {
   float: left;
@@ -121,4 +122,6 @@ blockquote {
   font-size: 1.5rem;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
+  margin-left: -150px;
+  text-align: right;
 }
